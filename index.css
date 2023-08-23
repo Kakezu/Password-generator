@@ -1,0 +1,94 @@
+body {
+    margin: auto;
+    background: #1F2937;
+    width: 550px;
+    height: 550px;
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    padding: 40px;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#title-green {
+    color: #4ADF86;
+    margin-top: 0px;
+}
+
+p {
+    color: #D5D4D8
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    background: #10B981;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 0 20px;
+}
+
+#tip {
+    font-size: 10px;
+}
+
+hr {
+    border: 1px solid #2F3E53;
+}
+
+.div-passwords {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.password {
+    color: #55F991;
+    background: #273549;
+    text-align: center;
+    width: 40%;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 5s;
+}
+
+@media (max-width: 600px) {
+    body {
+        width: auto;
+        height: auto;
+    }
+    .password {
+        color: #55F991;
+        background: #273549;
+        text-align: center;
+        width: 40%;
+        height: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+}
